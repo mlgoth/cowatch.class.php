@@ -2,6 +2,9 @@
 
 Simple PHP class for timing / benchmarking sections of code with millisecond precision.
 
+This was developed on Linux, but I see no reason that it shouldn't work on
+other platforms. Please contact me, if the unit tests fails on your platform.
+
 ## Features
 
  - Automatically report code execution time to stdout as it completes.
@@ -21,7 +24,4 @@ Simple PHP class for timing / benchmarking sections of code with millisecond pre
 See run_unit_tests() for example code. The class unit tests can be run from the
 shell for a quick demonstration:
 
-   /usr/bin/php cowatch.class.php
-
-This code was developed on Linux, but I see no reason that it shouldn't work on
-other platforms. Please contact me, if the unit tests fails on your platform.
+    /usr/bin/php cowatch.class.php
