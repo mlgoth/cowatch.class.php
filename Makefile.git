@@ -1,0 +1,14 @@
+# cowatch Makefile.git
+
+# To get started:
+#    git clone git@github.com:mlgoth/cowatch.class.php.git
+
+# Run make to push and pull from Github
+all:	github
+
+github:
+	-git commit
+	-git push -u origin master
+	git pull git@github.com:mlgoth/cowatch.class.php.git
+	git push -u origin master
+
