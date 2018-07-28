@@ -11,5 +11,3 @@ Features:
    to get the runtime.
 
 See run_unit_tests() for usage.
-
-28-Jul-2018/shj
