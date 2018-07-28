@@ -2,7 +2,7 @@
 
 Simple PHP class for timing / benchmarking sections of code with millisecond precision.
 
-Features:
+## Features
 
  - Automatically report code execution time to stdout as it completes.
  - Time any code block with ms precision.
@@ -11,12 +11,12 @@ Features:
  - Very little overhead - record the time at the start and do simple calcs
    to get the runtime.
 
-Usage:
+## Usage
 
-   $bench = new cowatch('My code block');
-   for ($i=0; $i<500; $i++)
-      sys_getloadavg();
-   $bench->end_watch(true);          // Stop timer and report runtime to stdout
+    $bench = new cowatch('My code block');
+    for ($i=0; $i<500; $i++)
+       sys_getloadavg();
+    $bench->end_watch(true);          // Stop timer and report runtime to stdout
 
 See run_unit_tests() for example code. The class unit tests can be run from the
 shell for a quick demonstration:
@@ -25,5 +25,3 @@ shell for a quick demonstration:
 
 This code was developed on Linux, but I see no reason that it shouldn't work on
 other platforms. Please contact me, if the unit tests fails on your platform.
-
-# vim:tw=75:aw:
